@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+    background-image: url('bg.png');
+}
+body div{
+    width: 450px;
+    height: 455px;
+    background-color: white;
+    margin: 155px 100px 155px 100px;
+}
+ul{
+    position: absolute;
+    margin-top: 70px; 
+    margin-left: 120px;
+    background-color: red;
+    width:195px;
+}
+ul li:last-child a{ 
+    color: yellow;
+}
+ul li a{
+    background-color:green;
+    padding-left:10px;
+    padding-right: 10px;
+    color: white;
+}
+ul li ul{   
+    position: relative; 
+    margin-top: 0;
+    margin-left: -0;
+    background-color: yellow;
+    width: 155px;
+}
+ul li ul a{
+    background-color: purple;
+}
+ul li ul li ul{
+    width: 115px;
+    background-color: red;
+}
+ul li ul li ul li a{
+    background-color: black;
+}
+ol{
+    background-color: yellow
+}
+ul li ul li ul li ol li:nth-child(even) a{
+    color: orange;
+    background-color: blue;
+}
+ul li ul li ul li ol li:nth-child(odd) a{
+    color: orange;
+    background-color: #abdae4;
+}
